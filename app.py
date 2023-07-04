@@ -11,9 +11,9 @@ class Results(Table):
 app = Flask(__name__)
 
 #Welcome Page
-@app.route("/rate")
-def welcome():
-    return render_template('welcome.html')
+# @app.route("/rate")
+# def welcome():
+#     return render_template('welcome.html')
 
 #Rating Page
 @app.route("/", methods=["GET", "POST"])
